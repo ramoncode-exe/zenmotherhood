@@ -34,12 +34,12 @@ function App() {
       <section className="relative overflow-hidden bg-gradient-to-br from-slate-50 via-blue-50 to-rose-50 py-20 px-4 sm:px-6 lg:px-8">
         <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
         <div className="max-w-5xl mx-auto text-center relative z-10">
-''
+          ''
           <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-slate-900 mb-6 leading-tight animate-fade-in-up">
             You can SLEEP THROUGH THE NIGHT
           </h1>
           <p className="text-2xl sm:text-3xl lg:text-4xl font-semibold mb-6 bg-gradient-to-r from-rose-600 to-blue-600 bg-clip-text text-transparent animate-fade-in-up animation-delay-100">
-and still BREASTFEED without STRESS and PAIN.          
+            and still BREASTFEED without STRESS and PAIN.
           </p>
 
           <p className="text-lg sm:text-xl text-slate-700 mb-10 leading-relaxed max-w-3xl mx-auto animate-fade-in-up animation-delay-200">
@@ -197,9 +197,10 @@ and still BREASTFEED without STRESS and PAIN.
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900 mb-4">
               Zen Motherhood
             </h2>
-            <p className="text-2xl text-slate-700 font-semibold mb-6">
+            <p className="text-2xl text-slate-700 font-semibold">
               Peaceful Breastfeeding & Restful Nights
             </p>
+            <img src="/public/1.svg" alt="image ebook" className='max-md:w-[400px] w-[500px] mx-auto p-2' />
             <p className="text-lg text-slate-600 leading-relaxed max-w-3xl mx-auto">
               An eBook created with care, inspired by Eastern techniques that have helped thousands of Japanese families for generations.
             </p>
@@ -503,6 +504,7 @@ and still BREASTFEED without STRESS and PAIN.
             </div>
 
             <div className="text-center mb-8">
+              <img src="/public/2.svg" alt="image ebook" className='max-md:w-[400px] w-[500px] mx-auto p-0' />
               <p className="text-slate-500 line-through text-xl mb-3">Regular Price $47.00</p>
               <div className="inline-block bg-white px-10 py-6 rounded-2xl shadow-xl border-2 border-blue-200">
                 <p className="text-sm text-slate-600 mb-2 font-semibold">Limited Time Offer</p>
@@ -565,6 +567,7 @@ and still BREASTFEED without STRESS and PAIN.
           </p>
 
           <div className="bg-white p-10 rounded-3xl shadow-2xl mb-10 border border-slate-200">
+            <img src="/public/1.svg" alt="image ebook" className='max-md:w-[400px] w-[500px] mx-auto p-2' />
             <p className="text-lg text-slate-700 mb-8">
               Imagine feeling rested, confident, and present for your baby, applying simple techniques that really work.
             </p>
