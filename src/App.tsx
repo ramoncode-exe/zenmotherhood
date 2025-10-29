@@ -1,5 +1,7 @@
 import { Heart, Moon, Baby, CheckCircle, Star, Sparkles, Shield, BookOpen, Target, TrendingUp, Users, Award, Clock, Zap, Gift } from 'lucide-react';
 import { useEffect, useRef } from 'react';
+import img1 from './assets/1.svg';
+import img2 from './assets/2.svg';
 
 function App() {
   const observerRef = useRef<IntersectionObserver | null>(null);
@@ -200,7 +202,7 @@ function App() {
             <p className="text-2xl text-slate-700 font-semibold">
               Peaceful Breastfeeding & Restful Nights
             </p>
-            <img src="/public/1.svg" alt="image ebook" className='max-md:w-[400px] w-[500px] mx-auto p-2' />
+            <img src={img1} alt="image ebook" className='max-md:w-[400px] w-[500px] mx-auto p-2' />
             <p className="text-lg text-slate-600 leading-relaxed max-w-3xl mx-auto">
               An eBook created with care, inspired by Eastern techniques that have helped thousands of Japanese families for generations.
             </p>
@@ -504,7 +506,7 @@ function App() {
             </div>
 
             <div className="text-center mb-8">
-              <img src="/public/2.svg" alt="image ebook" className='max-md:w-[400px] w-[500px] mx-auto p-0' />
+              <img src={img2} alt="image ebook" className='max-md:w-[400px] w-[500px] mx-auto p-0' />
               <p className="text-slate-500 line-through text-xl mb-3">Regular Price $47.00</p>
               <div className="inline-block bg-white px-10 py-6 rounded-2xl shadow-xl border-2 border-blue-200">
                 <p className="text-sm text-slate-600 mb-2 font-semibold">Limited Time Offer</p>
@@ -567,10 +569,11 @@ function App() {
           </p>
 
           <div className="bg-white p-10 rounded-3xl shadow-2xl mb-10 border border-slate-200">
-            <img src="/public/1.svg" alt="image ebook" className='max-md:w-[400px] w-[500px] mx-auto p-2' />
+            <img src={img1} alt="image ebook" className='max-md:w-[400px] w-[500px] mx-auto p-2' />
             <p className="text-lg text-slate-700 mb-8">
               Imagine feeling rested, confident, and present for your baby, applying simple techniques that really work.
             </p>
+            
 
             <div className="space-y-4 mb-8">
               {[
