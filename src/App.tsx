@@ -521,6 +521,7 @@ function App() {
             <div className="text-center">
               <a
                 href={stripeLink}
+                onClick={() => (window as any).fbq?.('track', 'InitiateCheckout')}
                 className="inline-flex items-center gap-3 bg-gradient-to-r from-blue-600 to-blue-700 text-white text-xl font-bold px-12 py-6 rounded-full shadow-2xl hover:shadow-3xl hover:scale-105 transition-all duration-300 mb-6"
               >
                 <Zap className="w-6 h-6" />
@@ -573,7 +574,7 @@ function App() {
             <p className="text-lg text-slate-700 mb-8">
               Imagine feeling rested, confident, and present for your baby, applying simple techniques that really work.
             </p>
-            
+
 
             <div className="space-y-4 mb-8">
               {[
@@ -591,6 +592,7 @@ function App() {
 
           <a
             href={stripeLink}
+            onClick={() => (window as any).fbq?.('track', 'InitiateCheckout')}
             className="inline-flex items-center gap-3 bg-gradient-to-r from-blue-600 to-blue-700 text-white text-2xl font-bold px-16 py-7 rounded-full shadow-2xl hover:shadow-3xl hover:scale-105 transition-all duration-300 mb-8"
           >
             <Zap className="w-7 h-7" />
